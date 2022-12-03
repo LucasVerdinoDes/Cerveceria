@@ -1,5 +1,6 @@
 var pool =require ('./bd');
 var md5 = require ('md5');
+var util = require ('util');
 
 async function getUserAndPassword(user, password) {
     try {
